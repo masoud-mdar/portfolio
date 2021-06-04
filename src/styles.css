@@ -10,15 +10,22 @@
     position: absolute;
     top: 0%;
     width: 100vw;
-    height: 15vh;
-    background-color: rgba(95, 158, 160, 0.123);
+    height: 10vh;
+    background-color: rgba(95, 158, 160, 0);
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
 }
 
 .navbar a {
+    margin:0 5vw 0 5vw;
     font-family: "Bungee Hairline", cursive;
-    color: #fafafa;
+    color: rgb(18, 241, 174);
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: none;
+    
 }
 
 .container {
@@ -41,20 +48,21 @@
     height: 300%;
     top: -110%;
     left: -50%;
-    opacity: 0.3;
+    opacity: 0.45;
     position: fixed;
-    animation: grain 8s steps(10) infinite;
-    /*animation: grain 0.5s linear infinite;*/
+    animation: grain 8s steps(10) infinite,
+    opac 30s ease-out
+    ;
 }
 
-/*@keyframes grain {
+@keyframes opac {
     0% {
-      background-position: 0 0;
+      opacity: 1;
     }
     100% {
-      background-position: 100% 100%;
+        opacity: 0.45;
     }
-}*/
+}
 
 @keyframes grain {
     0%, 100% { transform:translate(0, 0) }
@@ -68,6 +76,126 @@
     80% { transform:translate(3%, 35%) }
     90% { transform:translate(-10%, 10%) }
 }
+
+.text {
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    width: 35vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    animation: intro 20s steps(40);
+}
+
+@keyframes intro {
+    0% {
+        top: 20%;
+        left: 20%;
+    }
+    70% {
+        top: 20%;
+        left: 20%;
+    }
+    80% {
+        top: 20%;
+        left: 35%;
+    }
+    90% {
+        top: 20%;
+        left: 50%;
+    }
+    100% {
+        top: 20%;
+        left: 60%;
+    }
+}
+
+.text p {
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border-right: 2px solid rgba(255, 166, 0, 0.575);
+    font-family: "Bungee Hairline", cursive;
+    color: #fafafa;
+    font-size: 26px;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.text p:nth-child(1) {
+    width: 5vw;
+    animation: type 1s steps(40, end), blink .5s step-end infinite alternate;
+    animation-fill-mode: forwards;
+}
+  
+.text p:nth-child(2) {
+    width: 22vw;
+    opacity: 0;
+    animation: type2 3s steps(40, end);
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+  
+.text p:nth-child(3) {
+    width: 30vw;
+    opacity: 0;
+    animation: type3 4s steps(40, end), blink .5s step-end infinite alternate;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+}
+  
+@keyframes type {
+    0% {
+      width: 0;
+    }
+    99.9% {
+      border-right: 2px solid rgba(255, 166, 0, 0.575);
+    }
+    100% {
+      border: none;
+    }
+}
+  
+
+@keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: 2px solid rgba(255, 166, 0, 0.575);
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+}
+
+
+@keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+
+@keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+}
+  
 
 .main-part {
     width: 100vw;

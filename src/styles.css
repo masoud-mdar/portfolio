@@ -51,7 +51,7 @@
     opacity: 0.45;
     position: fixed;
     animation: grain 8s steps(10) infinite,
-    opac 30s ease-out
+    opac 45s ease-out
     ;
 }
 
@@ -81,34 +81,42 @@
     position: absolute;
     top: 20%;
     left: 60%;
-    width: 35vw;
+    width: 60vw;
     height: 40vh;
     display: flex;
     flex-direction: column;
+    font-size: 24px;
     z-index: 1;
-    animation: intro 20s steps(40);
+    animation: intro 25s steps(40);
 }
 
 @keyframes intro {
     0% {
         top: 20%;
         left: 20%;
+        font-size: 48px;
     }
     70% {
         top: 20%;
         left: 20%;
+        font-size: 48px;
     }
     80% {
         top: 20%;
         left: 35%;
+        color: #0fc4e4;
+        font-size: 32px;
     }
     90% {
         top: 20%;
         left: 50%;
+        font-size: 28px;
     }
     100% {
         top: 20%;
         left: 60%;
+        color: #fafafa;
+        font-size: 24px;
     }
 }
 
@@ -117,32 +125,49 @@
     display: flex;
     align-items: center;
     margin-bottom: 15px;
-    border-right: 2px solid rgba(255, 166, 0, 0.575);
+    border-right: 2px solid #fafafab9 /*rgba(255, 166, 0, 0.575)*/;
     font-family: "Bungee Hairline", cursive;
     color: #fafafa;
-    font-size: 26px;
     font-weight: bold;
     white-space: nowrap;
     overflow: hidden;
 }
+
+@keyframes coloring {
+    0% {
+        color: #fafafa;
+    }
+    70% {
+        color: rgb(18, 241, 174);
+    }
+    80% {
+        color: #0fc4e4;
+    }
+
+    100% {
+        color: #fafafa;
+    }
+}
+
 .text p:nth-child(1) {
-    width: 5vw;
-    animation: type 1s steps(40, end), blink .5s step-end infinite alternate;
+    width: 4vw;
+    animation: type 1s steps(40, end), blink .5s step-end infinite alternate, coloring 10s steps(40), size1 25s steps(40);
     animation-fill-mode: forwards;
 }
-  
+
 .text p:nth-child(2) {
     width: 22vw;
     opacity: 0;
-    animation: type2 3s steps(40, end);
+    animation: type2 3s steps(40, end), coloring 10s steps(40), size2 25s steps(40);
     animation-delay: 2s;
     animation-fill-mode: forwards;
 }
+
   
 .text p:nth-child(3) {
     width: 30vw;
     opacity: 0;
-    animation: type3 4s steps(40, end), blink .5s step-end infinite alternate;
+    animation: type3 4s steps(40, end), blink .5s step-end infinite alternate, coloring 10s steps(40), size3 25s steps(40);
     animation-delay: 6s;
     animation-fill-mode: forwards;
 }
@@ -152,10 +177,11 @@
       width: 0;
     }
     99.9% {
-      border-right: 2px solid rgba(255, 166, 0, 0.575);
+      border-right: 2px solid #fafafa;
     }
     100% {
       border: none;
+      width: 6vw;
     }
 }
   
@@ -168,11 +194,12 @@
       opacity: 1;
     }
     99.9% {
-      border-right: 2px solid rgba(255, 166, 0, 0.575);
+      border-right: 2px solid #fafafa;
     }
     100% {
       opacity: 1;
       border: none;
+      width: 40vw;
     }
 }
 
@@ -186,6 +213,7 @@
     }
     100% {
       opacity: 1;
+      width: 55vw;
     }
 }
 

@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.navbar {
+    position: absolute;
+    top: 0%;
+    width: 100vw;
+    height: 15vh;
+    background-color: rgba(95, 158, 160, 0.123);
+    display: flex;
+    justify-content: end;
+}
+
+.navbar a {
+    font-family: "Bungee Hairline", cursive;
+    color: #fafafa;
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+}
+
+.top-part {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./public/eniac_1170px-1170x632_c.jpg");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+
+.top-part::after {
+    content: "";
+    background-image: url("./public/preview-60266W89RdQZN4s_0005.jpg");
+    width: 300%;
+    height: 300%;
+    top: -110%;
+    left: -50%;
+    opacity: 0.3;
+    position: fixed;
+    animation: grain 8s steps(10) infinite;
+    /*animation: grain 0.5s linear infinite;*/
+}
+
+/*@keyframes grain {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 100% 100%;
+    }
+}*/
+
+@keyframes grain {
+    0%, 100% { transform:translate(0, 0) }
+    10% { transform:translate(-5%, -10%) }
+    20% { transform:translate(-15%, 5%) }
+    30% { transform:translate(7%, -25%) }
+    40% { transform:translate(-5%, 25%) }
+    50% { transform:translate(-15%, 10%) }
+    60% { transform:translate(15%, 0%) }
+    70% { transform:translate(0%, 15%) }
+    80% { transform:translate(3%, 35%) }
+    90% { transform:translate(-10%, 10%) }
+}
+
+.main-part {
+    width: 100vw;
+    height: 100vh;
+    background-color: cadetblue;
+    z-index: 1;
+}

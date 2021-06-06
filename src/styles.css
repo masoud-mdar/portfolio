@@ -89,33 +89,37 @@
     justify-content: space-between;
     font-size: 24px;
     z-index: 1;
-    animation: intro 25s steps(60);
+    animation: intro 13s steps(60);
 }
 
 @keyframes intro {
     0% {
-        top: 20%;
         left: 25%;
         font-size: 48px;
     }
-    70% {
-        top: 20%;
+    75% {
         left: 25%;
         font-size: 48px;
     }
     80% {
-        top: 20%;
+        left: 30%;
+        color: #0fc4e4;
+        font-size: 40px;
+    }
+    85% {
         left: 35%;
         color: #0fc4e4;
         font-size: 32px;
     }
     90% {
-        top: 20%;
-        left: 45%;
+        left: 40%;
         font-size: 28px;
     }
+    95% {
+        left: 50%;
+        font-size: 26px;
+    }
     100% {
-        top: 20%;
         left: 60%;
         color: #fafafa;
         font-size: 24px;
@@ -254,7 +258,7 @@
     border-top: solid 2px #fafafa; 
     transform: scaleX(0);  
     animation: borderline 1s steps(40);
-    animation-delay: 25s;
+    animation-delay: 13s;
 }
 
 @keyframes borderline {
@@ -299,7 +303,7 @@
     font-size: 32px;
     transition: 500ms;
     cursor: pointer;
-    animation: appearance 30s forwards;
+    animation: appearance 13s forwards;
     overflow: hidden;
 }
 
@@ -376,7 +380,7 @@
     opacity: 0;
     transform: rotate(45deg);
     animation: flash 1.5s infinite linear;
-    animation-delay: 25s;
+    animation-delay: 15s;
     
 }
 

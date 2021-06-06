@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -82,7 +83,7 @@
     top: 20%;
     left: 60%;
     width: 60vw;
-    height: 40vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -226,8 +227,9 @@
 
 .btn-wrapper {
     width:30vw;
-    height: 15vh;
+    height: 25vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     overflow: hidden;
@@ -235,8 +237,9 @@
 
 .fake-borders {
     width: 15vw;
-    height: 20vh;
+    height: 15vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     overflow: hidden;
@@ -292,9 +295,12 @@
     padding: 20px 15px;
     color: #fafafa;
     font-weight: bold;
+    font-family: "Annie Use Your Telescope";
+    font-size: 32px;
     transition: 500ms;
     cursor: pointer;
     animation: appearance 30s forwards;
+    overflow: hidden;
 }
 
 
@@ -351,7 +357,56 @@
     font-weight: bolder;
 }
 
-  
+.flash {
+    position: relative;
+    width: 30vw;
+    height: 10vh;
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flash-button {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-bottom: 5px solid rgb(18, 241, 174);
+    border-right: 5px solid rgb(18, 241, 174);
+    opacity: 0;
+    transform: rotate(45deg);
+    animation: flash 1.5s infinite linear;
+    animation-delay: 25s;
+    
+}
+
+@keyframes flash {
+    0% {
+        top: 0;
+        opacity: 1;
+    }
+
+    25% {
+        top: 10%;
+        opacity: 0.7;
+    }
+
+    50% {
+        top: 25%;
+        opacity: 0.5;
+    }
+
+    75% {
+        top: 10%;
+        opacity: 0.7;
+    }
+
+    100% {
+        top: 0;
+        opacity: 1;
+    }
+
+}
 
 .main-part {
     width: 100vw;

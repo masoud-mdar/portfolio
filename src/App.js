@@ -24,6 +24,9 @@ const App = () => {
                         <div className="fake-borders">
                             <span className="projects-button">My Projects</span>
                         </div>
+                        <div className="flash">
+                            <div className="flash-button"></div>
+                        </div>
                         
                     </div>
                         

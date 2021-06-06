@@ -15,12 +15,18 @@ const App = () => {
             </div>
             <div className="top-wrapper">
                 <div className="text">
-                    <p>Hi,</p>
-                    <p>My name is Masoud,</p>
-                    <p>I can talk to computers...</p>
+                    <div className="text-part">
+                        <p>Hi,</p>
+                        <p>My name is Masoud,</p>
+                        <p>I can talk to computers...</p>
+                    </div>
+                    <div className="btn-wrapper">
+                        <span className="projects-button">My Projects</span>
+                    </div>
+                        
+                    
                 </div>
                 <div className="top-part"></div>
-
             </div>
             
 

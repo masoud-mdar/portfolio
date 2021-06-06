@@ -85,20 +85,21 @@
     height: 40vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     font-size: 24px;
     z-index: 1;
-    animation: intro 25s steps(40);
+    animation: intro 25s steps(60);
 }
 
 @keyframes intro {
     0% {
         top: 20%;
-        left: 20%;
+        left: 25%;
         font-size: 48px;
     }
     70% {
         top: 20%;
-        left: 20%;
+        left: 25%;
         font-size: 48px;
     }
     80% {
@@ -109,7 +110,7 @@
     }
     90% {
         top: 20%;
-        left: 50%;
+        left: 45%;
         font-size: 28px;
     }
     100% {
@@ -120,7 +121,7 @@
     }
 }
 
-.text p {
+.text .text-part p {
     height: 5vh;
     display: flex;
     align-items: center;
@@ -149,13 +150,13 @@
     }
 }
 
-.text p:nth-child(1) {
+.text .text-part p:nth-child(1) {
     width: 4vw;
     animation: type 1s steps(40, end), blink .5s step-end infinite alternate, coloring 10s steps(40), size1 25s steps(40);
     animation-fill-mode: forwards;
 }
 
-.text p:nth-child(2) {
+.text .text-part p:nth-child(2) {
     width: 22vw;
     opacity: 0;
     animation: type2 3s steps(40, end), coloring 10s steps(40), size2 25s steps(40);
@@ -164,7 +165,7 @@
 }
 
   
-.text p:nth-child(3) {
+.text .text-part p:nth-child(3) {
     width: 30vw;
     opacity: 0;
     animation: type3 4s steps(40, end), blink .5s step-end infinite alternate, coloring 10s steps(40), size3 25s steps(40);
@@ -223,6 +224,18 @@
       border-color: transparent;
     }
 }
+
+.btn-wrapper {
+    width:30vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid crimson;
+
+}
+
+
   
 
 .main-part {

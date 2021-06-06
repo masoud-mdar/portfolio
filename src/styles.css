@@ -232,8 +232,36 @@
     justify-content: center;
     align-items: center;
     border: 1px solid crimson;
-
+    background-color: #fafafa;
 }
+
+.projects-button {
+    color: #bd1c7f;
+}
+
+/*.projects-button::after {
+    content: '';
+    position: absolute;
+    left: 10vw;
+    width: 10vw;
+    height: 40px;
+    margin-top: -10px;
+    border-bottom: solid 3px #019fb6;
+    border-top: solid 3px #019fb6;
+        
+    -webkit-transform: scaleX(0.0001);
+    -ms-transform: scaleX(0.0001);
+    transform: scaleX(0.0001);
+        
+    -webkit-transition: -webkit-transform 250ms ease-in-out;
+    transition: transform 250ms ease-in-out;
+}
+
+.projects-button:hover::after {
+    -webkit-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+} */
 
 
   

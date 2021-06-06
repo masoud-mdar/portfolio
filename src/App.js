@@ -21,7 +21,10 @@ const App = () => {
                         <p>I can talk to computers...</p>
                     </div>
                     <div className="btn-wrapper">
-                        <span className="projects-button">My Projects</span>
+                        <div className="fake-borders">
+                            <span className="projects-button">My Projects</span>
+                        </div>
+                        
                     </div>
                         
                     

@@ -564,12 +564,31 @@
     opacity: 1;
 }
 
+.project-link {
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit;
+}
+
+.project-link::after {
+    display:block;
+    content: '';
+    border-bottom: solid 2px #fafafa;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+
+.project-link:hover::after {
+    transform: scaleX(1);
+}
+
 .project-details .project-skills {
-    color: #fafafa;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
     align-content: space-around;
+    color: #fafafa;
+    font-family: monospace;
 }
 
 .project-details .project-skills p {
@@ -577,4 +596,10 @@
     margin: 5px;
     border: 2px solid #fafafa;
     border-radius: 5px;
+    opacity: 0;
+    transition: 1500ms;
+}
+
+.project:hover .project-details .project-skills p {
+    opacity: 1;
 }

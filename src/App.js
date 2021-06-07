@@ -44,11 +44,12 @@ const App = () => {
                         <div className="project">
                             <div className="project-details">
                                 <div className="project-title">
-                                    <h2>Issue Tracker</h2>
+                                    <h2><a href="https://issue-tracker-masoud.netlify.app" target="blank" className="project-link">Issue Tracker</a></h2>
                                 </div>
                                 <div className="project-skills">
                                     <p>HTML</p>
                                     <p>CSS</p>
+                                    <p>Javascript</p>
                                     <p>React</p>
                                     <p>Node.js</p>
                                     <p>ES6</p>
@@ -63,9 +64,18 @@ const App = () => {
                         <div className="project">
                             <div className="project-details">
                                 <div className="project-title">
-                                    <h2>Personal Library</h2>
+                                    <h2><a href="https://personal-library-masoud.netlify.app" target="blank" className="project-link">Personal Library</a></h2>
                                 </div>
-                                <div className="project-skills"></div>
+                                <div className="project-skills">
+                                    <p>HTML</p>
+                                    <p>CSS</p>
+                                    <p>Javascript</p>
+                                    <p>React</p>
+                                    <p>Node.js</p>
+                                    <p>ES6</p>
+                                    <p>Express.js</p>
+                                    <p>MongoDB</p>
+                                </div>
                                 
                             </div>
                         </div>
@@ -73,9 +83,17 @@ const App = () => {
                         <div className="project">
                             <div className="project-details">
                                 <div className="project-title">
-                                    <h2>Sudoko Solver</h2>
+                                    <h2><a href="https://sudoku-solver-masoud.netlify.app" target="blank" className="project-link">Sudoko Solver</a></h2>
                                 </div>
-                                <div className="project-skills"></div>
+                                <div className="project-skills">
+                                    <p>HTML</p>
+                                    <p>CSS</p>
+                                    <p>Javascript</p>
+                                    <p>React</p>
+                                    <p>Node.js</p>
+                                    <p>ES6</p>
+                                    <p>Express.js</p>
+                                </div>
                                 
                             </div>
                         </div>
@@ -83,9 +101,19 @@ const App = () => {
                         <div className="project">
                             <div className="project-details">
                                 <div className="project-title">
-                                    <h2>Exercise Tracker</h2>
+                                    <h2><a href="https://exercise-tracker-msd.netlify.app" target="blank" className="project-link">Exercise Tracker</a></h2>
                                 </div>
-                                <div className="project-skills"></div>
+                                <div className="project-skills">
+                                    <p>HTML</p>
+                                    <p>CSS</p>
+                                    <p>Javascript</p>
+                                    <p>React</p>
+                                    <p>Node.js</p>
+                                    <p>ES6</p>
+                                    <p>Express.js</p>
+                                    <p>MongoDB</p>
+                                    <p>Mongoose</p>
+                                </div>
                                 
                             </div>
                         </div>
@@ -93,9 +121,17 @@ const App = () => {
                         <div className="project">
                             <div className="project-details">
                                 <div className="project-title">
-                                    <h2>Meme Generator</h2>
+                                    <h2><a href="https://masoud-mdar.github.io/Meme-Generator" target="blank" className="project-link">Meme Generator</a></h2>
                                 </div>
-                                <div className="project-skills"></div>
+                                <div className="project-skills">
+                                    <p>HTML</p>
+                                    <p>CSS</p>
+                                    <p>Javascript</p>
+                                    <p>React</p>
+                                    <p>ES6</p>
+                                    <p>API</p>
+
+                                </div>
                                 
                             </div>
                         </div>
@@ -103,9 +139,17 @@ const App = () => {
                         <div className="project">
                             <div className="project-details">
                                 <div className="project-title">
-                                    <h2>Unit Convertor</h2>
+                                    <h2><a href="https://metric-imperial-converter.netlify.app" target="blank" className="project-link">Unit Convertor</a></h2>
                                 </div>
-                                <div className="project-skills"></div>
+                                <div className="project-skills">
+                                    <p>HTML</p>
+                                    <p>CSS</p>
+                                    <p>Javascript</p>
+                                    <p>React</p>
+                                    <p>Node.js</p>
+                                    <p>ES6</p>
+                                    <p>Express.js</p>
+                                </div>
                                 
                             </div>
                         </div>

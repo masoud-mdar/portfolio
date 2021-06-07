@@ -9,7 +9,7 @@ const App = () => {
                 <div className="nav-links">
                     <a href="#1">Home</a>
                     <a href="#2">About</a>
-                    <a href="#3">Projects</a>
+                    <a href="#projects">Projects</a>
                     <a href="#4">Contact</a>
                 </div>
             </div>
@@ -39,7 +39,48 @@ const App = () => {
             <div className="container">
                 
                 <div className="main-part">
-
+                    <div id="projects">
+                        <div className="project-wrapper">
+                            <div className="project-title">
+                                <h2>Issue Tracker</h2>
+                            </div>
+                            <div className="project"></div>
+                        </div>
+                        <div className="project-wrapper">
+                        <div className="project-title">
+                            <h2>Pezrsonal Library</h2>
+                        </div>
+                            <div className="project"></div>
+                        </div>
+                        <div className="project-wrapper">
+                        <div className="project-title">
+                            <h2>Sudoko Solver</h2>
+                        </div>
+                            <div className="project"></div>
+                        </div>
+                        <div className="project-wrapper">
+                        <div className="project-title">
+                            <h2>Exercise Tracker</h2>
+                        </div>
+                            <div className="project"></div>
+                        </div>
+                        <div className="project-wrapper">
+                        <div className="project-title">
+                            <h2>Meme Generator</h2>
+                        </div>
+                            <div className="project"></div>
+                        </div>
+                        <div className="project-wrapper">
+                        <div className="project-title">
+                            <h2>Unit Convertor</h2>
+                        </div>
+                            <div className="project"></div>
+                        </div>
+                        
+                        
+                        
+                        
+                    </div>
                 </div>
             </div>
         </div>

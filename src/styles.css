@@ -414,7 +414,63 @@
 
 .main-part {
     width: 100vw;
-    height: 100vh;
+    height: 200vh;
     background-color: cadetblue;
     z-index: 1;
+}
+
+#projects {
+    width: 100vw;
+    height: 200vh;
+    background-color: rgba(25, 25, 25, 0.664);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-content: space-around;
+}
+
+.project-wrapper {
+    width: 40vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid crimson;
+}
+
+.project {
+    width: 40vw;
+    height: 40vh;
+    border-radius: 5px;
+}
+
+.project-wrapper:nth-child(1) .project {
+    background-image: url("./public/issue-tracker.jpg");
+    background-size: cover;
+}
+
+.project-wrapper:nth-child(2) .project {
+    background-image: url("./public/personal-library.jpg");
+    background-size: cover;
+}
+
+.project-wrapper:nth-child(3) .project {
+    background-image: url("./public/sudoku-solver.jpg");
+    background-size: cover;
+}
+
+.project-wrapper:nth-child(4) .project {
+    background-image: url("./public/exercise-tracker.jpg");
+    background-size: cover;
+}
+
+.project-wrapper:nth-child(5) .project {
+    background-image: url("./public/meme-generator.jpg");
+    background-size: cover;
+}
+
+.project-wrapper:nth-child(6) .project {
+    background-image: url("./public/converter.jpg");
+    background-size: cover;
 }

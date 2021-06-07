@@ -414,29 +414,75 @@
 
 .main-part {
     width: 100vw;
-    height: 200vh;
-    background-color: cadetblue;
+    height: 225vh;
+    background-color: rgba(95, 158, 160, 0.521);
     z-index: 1;
+}
+
+#projects::before {
+    content: "";
+    background-image: url("./public/preview-60266W89RdQZN4s_0005.jpg");
+    width: 300%;
+    height: 300%;
+    top: -110%;
+    left: -50%;
+    opacity: 0.1;
+    position: fixed;
+    animation: grain 8s steps(10) infinite;
+    z-index: 0;
+}
+
+.main-part-title {
+    width: 100vw;
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #171717;
+    color: #fafafa;
+    font-family: "Bungee Hairline", cursive;
+    animation:  color-changer 15s infinite linear;
+    z-index: 2;
+}
+
+@keyframes color-changer {
+    0% {
+        color: #fafafa;
+    }
+    25% {
+        color: rgba(95, 158, 160, 0.521);
+    }
+    50% {
+        color: rgb(18, 241, 174);
+    }
+    75% {
+        color: #0fc4e4;
+    }
+    100% {
+        color: #fafafa;
+    }
 }
 
 #projects {
     width: 100vw;
-    height: 200vh;
-    background-color: rgba(25, 25, 25, 0.664);
+    height: 215vh;
+    padding-top: 25px;
+    background-color: #171717;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-content: space-around;
+    z-index: 2;
 }
 
 
 .project {
     width: 40vw;
-    height: 40vh;
+    height: 50vh;
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     border-radius: 5px;
     transition: 500ms;
@@ -602,4 +648,34 @@
 
 .project:hover .project-details .project-skills p {
     opacity: 1;
+}
+
+.project-code {
+    width: 30vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.project-code a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fafafa;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+
+.project-code a::after {
+    display:block;
+    content: '';
+    border-bottom: solid 2px #fafafa;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+
+.project-code a:hover::after {
+    transform: scaleX(1);
 }

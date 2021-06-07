@@ -299,7 +299,7 @@
     padding: 20px 15px;
     color: #fafafa;
     font-weight: bold;
-    font-family: "Annie Use Your Telescope";
+    font-family: "Annie Use Your Telescope", cursive;
     font-size: 32px;
     transition: 500ms;
     cursor: pointer;
@@ -429,48 +429,137 @@
     align-content: space-around;
 }
 
-.project-wrapper {
-    width: 40vw;
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px solid crimson;
-}
 
 .project {
     width: 40vw;
     height: 40vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
     border-radius: 5px;
+    transition: 500ms;
 }
 
-.project-wrapper:nth-child(1) .project {
+.project:nth-child(1)::after {
+    content: "";
+    width: 40vw;
+    height: 40vh;
+    position: absolute;
+    top: 0;
     background-image: url("./public/issue-tracker.jpg");
     background-size: cover;
+    transition: 500ms;
 }
 
-.project-wrapper:nth-child(2) .project {
+.project:nth-child(1):hover::after {
+    opacity: 0.1;
+}
+
+.project:nth-child(2)::after {
+    content: "";
+    width: 40vw;
+    height: 40vh;
+    position: absolute;
+    top: 0;
     background-image: url("./public/personal-library.jpg");
     background-size: cover;
+    transition: 500ms;
 }
 
-.project-wrapper:nth-child(3) .project {
+.project:nth-child(2):hover::after {
+    opacity: 0.1;
+}
+
+.project:nth-child(3)::after {
+    content: "";
+    width: 40vw;
+    height: 40vh;
+    position: absolute;
+    top: 0;
     background-image: url("./public/sudoku-solver.jpg");
     background-size: cover;
+    transition: 500ms;
 }
 
-.project-wrapper:nth-child(4) .project {
+.project:nth-child(3):hover::after {
+    opacity: 0.1;
+}
+
+
+.project:nth-child(4)::after {
+    content: "";
+    width: 40vw;
+    height: 40vh;
+    position: absolute;
+    top: 0;
     background-image: url("./public/exercise-tracker.jpg");
     background-size: cover;
+    transition: 500ms;
 }
 
-.project-wrapper:nth-child(5) .project {
+.project:nth-child(4):hover::after {
+    opacity: 0.1;
+}
+
+.project:nth-child(5)::after {
+    content: "";
+    width: 40vw;
+    height: 40vh;
+    position: absolute;
+    top: 0;
     background-image: url("./public/meme-generator.jpg");
     background-size: cover;
+    transition: 500ms;
 }
 
-.project-wrapper:nth-child(6) .project {
+.project:nth-child(5):hover::after {
+    opacity: 0.1;
+}
+
+.project:nth-child(6)::after {
+    content: "";
+    width: 40vw;
+    height: 40vh;
+    position: absolute;
+    top: 0;
     background-image: url("./public/converter.jpg");
     background-size: cover;
+    transition: 500ms;
+}
+
+.project:nth-child(6):hover::after {
+    opacity: 0.1;
+}
+
+
+
+.project .project-details {
+    width: 30vw;
+    height: 40vh;
+    display: flex;
+    visibility: hidden;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    opacity: 0;
+    transition: 1000ms;
+    z-index: 2;
+}
+
+.project:hover .project-details {
+    visibility: visible;
+    opacity: 1;
+}
+
+.project-details .project-title h2 {
+    color: #fafafa;
+    font-family: "Bungee Hairline", cursive;
+    opacity: 0;
+    transition: 1500ms;
+}
+
+.project:hover .project-details .project-title h2 {
+    opacity: 1;
 }

@@ -40,45 +40,68 @@ const App = () => {
                 
                 <div className="main-part">
                     <div id="projects">
-                        <div className="project-wrapper">
-                            <div className="project-title">
-                                <h2>Issue Tracker</h2>
+
+                        <div className="project">
+                            <div className="project-details">
+                                <div className="project-title">
+                                    <h2>Issue Tracker</h2>
+                                </div>
+                                <div className="project-skills"></div>
+                                
                             </div>
-                            <div className="project"></div>
+
                         </div>
-                        <div className="project-wrapper">
-                        <div className="project-title">
-                            <h2>Pezrsonal Library</h2>
+
+                        <div className="project">
+                            <div className="project-details">
+                                <div className="project-title">
+                                    <h2>Personal Library</h2>
+                                </div>
+                                <div className="project-skills"></div>
+                                
+                            </div>
                         </div>
-                            <div className="project"></div>
+
+                        <div className="project">
+                            <div className="project-details">
+                                <div className="project-title">
+                                    <h2>Sudoko Solver</h2>
+                                </div>
+                                <div className="project-skills"></div>
+                                
+                            </div>
                         </div>
-                        <div className="project-wrapper">
-                        <div className="project-title">
-                            <h2>Sudoko Solver</h2>
+
+                        <div className="project">
+                            <div className="project-details">
+                                <div className="project-title">
+                                    <h2>Exercise Tracker</h2>
+                                </div>
+                                <div className="project-skills"></div>
+                                
+                            </div>
                         </div>
-                            <div className="project"></div>
+
+                        <div className="project">
+                            <div className="project-details">
+                                <div className="project-title">
+                                    <h2>Meme Generator</h2>
+                                </div>
+                                <div className="project-skills"></div>
+                                
+                            </div>
                         </div>
-                        <div className="project-wrapper">
-                        <div className="project-title">
-                            <h2>Exercise Tracker</h2>
+
+                        <div className="project">
+                            <div className="project-details">
+                                <div className="project-title">
+                                    <h2>Unit Convertor</h2>
+                                </div>
+                                <div className="project-skills"></div>
+                                
+                            </div>
                         </div>
-                            <div className="project"></div>
-                        </div>
-                        <div className="project-wrapper">
-                        <div className="project-title">
-                            <h2>Meme Generator</h2>
-                        </div>
-                            <div className="project"></div>
-                        </div>
-                        <div className="project-wrapper">
-                        <div className="project-title">
-                            <h2>Unit Convertor</h2>
-                        </div>
-                            <div className="project"></div>
-                        </div>
-                        
-                        
-                        
+
                         
                     </div>
                 </div>

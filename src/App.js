@@ -46,7 +46,15 @@ const App = () => {
                                 <div className="project-title">
                                     <h2>Issue Tracker</h2>
                                 </div>
-                                <div className="project-skills"></div>
+                                <div className="project-skills">
+                                    <p>HTML</p>
+                                    <p>CSS</p>
+                                    <p>React</p>
+                                    <p>Node.js</p>
+                                    <p>ES6</p>
+                                    <p>Express.js</p>
+                                    <p>MongoDB</p>
+                                </div>
                                 
                             </div>
 

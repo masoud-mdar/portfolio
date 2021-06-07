@@ -563,3 +563,18 @@
 .project:hover .project-details .project-title h2 {
     opacity: 1;
 }
+
+.project-details .project-skills {
+    color: #fafafa;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-content: space-around;
+}
+
+.project-details .project-skills p {
+    padding: 6px;
+    margin: 5px;
+    border: 2px solid #fafafa;
+    border-radius: 5px;
+}

@@ -1,5 +1,6 @@
 import React from "react"
 import {HashLink} from "react-router-hash-link"
+import ScrollButton from "./ScrollButton"
 
 const HomePage = () => {
 
@@ -180,6 +181,7 @@ const HomePage = () => {
                     </div>
                 </div>
             </div>
+            <ScrollButton />
         </div>
     )
 }

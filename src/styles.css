@@ -688,6 +688,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 
 }
 
@@ -697,6 +698,7 @@
     color: #fafafa;
     font-family: monospace;
     font-size: 16px;
+    overflow: hidden;
 }
 
 
@@ -804,3 +806,24 @@
     animation-delay: 40s;
 }
 
+
+::-webkit-scrollbar {
+    width: 15px;
+                
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #171717;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(18, 241, 174);
+                
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(32, 178, 171, 0.705);
+}

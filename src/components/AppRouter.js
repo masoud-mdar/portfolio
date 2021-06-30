@@ -6,7 +6,7 @@ import About from "./About"
 import Projects from "./Projects"
 import Contact from "./Contact"
 import NotFound from "./NotFound"
-import ScrollButton from "./ScrollButton"
+
 
 const AppRouter = () => {
 
@@ -21,7 +21,7 @@ const AppRouter = () => {
                 <Route component={NotFound}></Route>
 
             </Switch>
-            <ScrollButton />
+            
         </BrowserRouter>
     )
 }

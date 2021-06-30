@@ -672,6 +672,111 @@
     opacity: 0.1;
 }
 
+.project:nth-child(11)::after {
+    content: "";
+    width: 40vw;
+    height: 40vh;
+    position: absolute;
+    top: 0;
+    background-image: url("./public/url-hasher.jpg");
+    background-size: cover;
+    transition: 500ms;
+}
+
+.project:nth-child(11):hover::after {
+    opacity: 0.1;
+}
+
+.project:nth-child(12)::after {
+    content: "";
+    width: 40vw;
+    height: 40vh;
+    position: absolute;
+    top: 0;
+    background-image: url("./public/url-hasher.jpg");
+    background-size: cover;
+    transition: 500ms;
+}
+
+.project:nth-child(12):hover::after {
+    opacity: 0.1;
+}
+
+.project:nth-child(13)::after {
+    content: "";
+    width: 40vw;
+    height: 40vh;
+    position: absolute;
+    top: 0;
+    background-image: url("./public/url-hasher.jpg");
+    background-size: cover;
+    transition: 500ms;
+}
+
+.project:nth-child(13):hover::after {
+    opacity: 0.1;
+}
+
+.project:nth-child(14)::after {
+    content: "";
+    width: 40vw;
+    height: 40vh;
+    position: absolute;
+    top: 0;
+    background-image: url("./public/url-hasher.jpg");
+    background-size: cover;
+    transition: 500ms;
+}
+
+.project:nth-child(14):hover::after {
+    opacity: 0.1;
+}
+
+.project:nth-child(15)::after {
+    content: "";
+    width: 40vw;
+    height: 40vh;
+    position: absolute;
+    top: 0;
+    background-image: url("./public/url-hasher.jpg");
+    background-size: cover;
+    transition: 500ms;
+}
+
+.project:nth-child(15):hover::after {
+    opacity: 0.1;
+}
+
+.project:nth-child(16)::after {
+    content: "";
+    width: 40vw;
+    height: 40vh;
+    position: absolute;
+    top: 0;
+    background-image: url("./public/url-hasher.jpg");
+    background-size: cover;
+    transition: 500ms;
+}
+
+.project:nth-child(16):hover::after {
+    opacity: 0.1;
+}
+
+.project:nth-child(17)::after {
+    content: "";
+    width: 40vw;
+    height: 40vh;
+    position: absolute;
+    top: 0;
+    background-image: url("./public/url-hasher.jpg");
+    background-size: cover;
+    transition: 500ms;
+}
+
+.project:nth-child(17):hover::after {
+    opacity: 0.1;
+}
+
 
 
 .project .project-details {
@@ -871,7 +976,7 @@
 
 #projects-page {
     width: 100vw;
-    height: 315vh;
+    height: 600vh;
     padding-top: 20vh;
     background-color: #171717;
     display: grid;

@@ -363,6 +363,55 @@ const Projects = () => {
                 </div>
 
 
+
+                <div className="project">
+                    <div className="project-details">
+                        <div className="project-title">
+                            <h2><a href="https://masoud-mdar.github.io/Random-Color-Generator" target="blank" className="project-link">Random Color Generator</a></h2>
+                        </div>
+                        <div className="project-skills">
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>Javascript</p>
+                            <p>React</p>
+                            <p>Node.js</p>
+                            <p>ES6</p>
+                            <p>Express.js</p>
+                            <p>MongoDB</p>
+                        </div>
+                        
+                    </div>
+                    <div className="project-code">
+                        <a href="https://masoud-mdar.github.io/Random-Color-Generator" target="blank">Live Website</a>
+                        <a href="https://github.com/masoud-mdar/Random-Color-Generator" target="blank">Code</a>
+                    </div>
+                </div>
+
+                <div className="project">
+                    <div className="project-details">
+                        <div className="project-title">
+                            <h2><a href="https://masoud-mdar.github.io/keycode" target="blank" className="project-link">Key Code</a></h2>
+                        </div>
+                        <div className="project-skills">
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>Javascript</p>
+                            <p>React</p>
+                            <p>Node.js</p>
+                            <p>ES6</p>
+                            <p>Express.js</p>
+                            <p>MongoDB</p>
+                        </div>
+                        
+                    </div>
+                    <div className="project-code">
+                        <a href="https://masoud-mdar.github.io/keycode" target="blank">Live Website</a>
+                        <a href="https://github.com/masoud-mdar/keycode" target="blank">Code</a>
+                    </div>
+                </div>
+                
+
+
             </div>
         </div>
     )

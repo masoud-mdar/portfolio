@@ -5,7 +5,7 @@ const Projects = () => {
     return (
 
         <div>
-            <div id="projects">
+            <div id="projects-page">
 
                 <div className="project">
                     <div className="project-details">
@@ -142,6 +142,113 @@ const Projects = () => {
                     <div className="project-code">
                         <a href="https://metric-imperial-converter.netlify.app" target="blank">Live Website</a>
                         <a href="https://github.com/masoud-mdar/Metric-Imperial-Converter" target="blank">Code</a>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div className="project">
+                    <div className="project-details">
+                        <div className="project-title">
+                            <h2><a href="https://request-header-parser.netlify.app" target="blank" className="project-link">Request Header Parser Micro Service</a></h2>
+                        </div>
+                        <div className="project-skills">
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>Javascript</p>
+                            <p>React</p>
+                            <p>Node.js</p>
+                            <p>ES6</p>
+                            <p>Express.js</p>
+                        </div>
+                        
+                    </div>
+                    <div className="project-code">
+                        <a href="https://request-header-parser.netlify.app" target="blank">Live Website</a>
+                        <a href="https://github.com/masoud-mdar/Request-Header-Parser" target="blank">Code</a>
+                    </div>
+                </div>
+
+                <div className="project">
+                    <div className="project-details">
+                        <div className="project-title">
+                            <h2><a href="https://url-hash.netlify.app" target="blank" className="project-link">URL Hasher Micro Service</a></h2>
+                        </div>
+                        <div className="project-skills">
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>Javascript</p>
+                            <p>React</p>
+                            <p>Node.js</p>
+                            <p>ES6</p>
+                            <p>Express.js</p>
+                        </div>
+                        
+                    </div>
+                    <div className="project-code">
+                        <a href="https://url-hash.netlify.app" target="blank">Live Website</a>
+                        <a href="https://github.com/masoud-mdar/URL-Hasher" target="blank">Code</a>
+                    </div>
+                </div>
+
+                <div className="project">
+                    <div className="project-details">
+                        <div className="project-title">
+                            <h2><a href="https://file-metadata.netlify.app" target="blank" className="project-link">File Metadata Micro Service</a></h2>
+                        </div>
+                        <div className="project-skills">
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>Javascript</p>
+                            <p>React</p>
+                            <p>Node.js</p>
+                            <p>ES6</p>
+                            <p>Express.js</p>
+                        </div>
+                        
+                    </div>
+                    <div className="project-code">
+                        <a href="https://file-metadata.netlify.app" target="blank">Live Website</a>
+                        <a href="https://github.com/masoud-mdar/File-Metadata" target="blank">Code</a>
+                    </div>
+                </div>
+
+                <div className="project">
+                    <div className="project-details">
+                        <div className="project-title">
+                            <h2><a href="https://app.netlify.com/sites/timestamp-ms" target="blank" className="project-link">Timestamp Micro Service</a></h2>
+                        </div>
+                        <div className="project-skills">
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>Javascript</p>
+                            <p>React</p>
+                            <p>Node.js</p>
+                            <p>ES6</p>
+                            <p>Express.js</p>
+                        </div>
+                        
+                    </div>
+                    <div className="project-code">
+                        <a href="https://app.netlify.com/sites/timestamp-ms" target="blank">Live Website</a>
+                        <a href="https://github.com/masoud-mdar/Timestamp-Micro-Service" target="blank">Code</a>
                     </div>
                 </div>
 

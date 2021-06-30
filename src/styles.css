@@ -738,10 +738,11 @@
 
 .about-text-wrapper {
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     position: absolute;
     top: 10vh;
     padding: 35px;
+    padding-top: 10vh;
     z-index: 1;
 }
 
@@ -805,6 +806,38 @@
 .about-text-wrapper p:nth-child(9) {
     animation-delay: 40s;
 }
+
+
+#projects-page {
+    width: 100vw;
+    height: 315vh;
+    padding-top: 20vh;
+    background-color: #171717;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-content: space-around;
+    z-index: 2;
+}
+
+#projects-page::before {
+    content: "";
+    background-image: url("./public/preview-60266W89RdQZN4s_0005.jpg");
+    width: 300%;
+    height: 300%;
+    top: -110%;
+    left: -50%;
+    opacity: 0.1;
+    position: fixed;
+    animation: grain 8s steps(10) infinite;
+    z-index: 0;
+}
+
+
+
+
+
+
 
 
 ::-webkit-scrollbar {

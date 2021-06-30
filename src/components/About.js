@@ -32,7 +32,7 @@ const About = () => {
                 Of course, with my experience of living in a dictatorship, I wanted to make the world a better place. So, I started studying a part time PHD program in the Cultural Studies only to do my part in making the world a better place for everyone. But this time I let my joy of programming computers lead my life. One year ago, in the bizarre summer of 2020, I started learning programming seriously and with a strict schedule. Since then, I’ve coded almost every single day and have spent so many hours building projects and of course, logging things to the console trying to find out what the cookie is the problem of my code.
                 </p>
                 <p>
-                Computer Programming is above all my passion, my magic world and my preferred occupation. 
+                Computer Programming is above all my passion, my magic world and my preferred occupation. It's my abracadabra! 
                 </p>
             </div>
 

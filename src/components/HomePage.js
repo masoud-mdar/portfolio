@@ -12,6 +12,7 @@ const HomePage = () => {
                         <p>Hi,</p>
                         <p>My name is Masoud,</p>
                         <p>I can talk to computers...</p>
+                        <p>Well, I'm a web developer!</p>
                     </div>
                     <div className="btn-wrapper">
                         <div className="fake-borders">

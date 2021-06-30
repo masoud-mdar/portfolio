@@ -305,6 +305,7 @@
     cursor: pointer;
     animation: appearance 13s forwards;
     overflow: hidden;
+    text-decoration: none;
 }
 
 

@@ -1,18 +1,11 @@
 import React from "react"
+import {HashLink} from "react-router-hash-link"
 
 const HomePage = () => {
 
     return (
         <div>
-            <div className="navbar">
-                <div className="nav-logo"></div>
-                <div className="nav-links">
-                    <a href="#1">Home</a>
-                    <a href="#2">About</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#4">Contact</a>
-                </div>
-            </div>
+
             <div className="top-wrapper">
                 <div className="text">
                     <div className="text-part">
@@ -22,10 +15,10 @@ const HomePage = () => {
                     </div>
                     <div className="btn-wrapper">
                         <div className="fake-borders">
-                            <span href="#projects" className="projects-button">My Projects</span>
+                            <HashLink smooth to="#projects" className="projects-button">My Projects</HashLink>
                         </div>
                         <div className="flash">
-                            <div href="#projects" className="flash-button"></div>
+                            <HashLink smooth to="#projects" className="flash-button"></HashLink>
                         </div>
                         
                     </div>

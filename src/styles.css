@@ -854,7 +854,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
 
 }
 
@@ -864,7 +863,6 @@
     color: #fafafa;
     font-family: monospace;
     font-size: 16px;
-    overflow: hidden;
 }
 
 

@@ -252,6 +252,116 @@ const Projects = () => {
                     </div>
                 </div>
 
+                <div className="project">
+                    <div className="project-details">
+                        <div className="project-title">
+                            <h2><a href="https://masoud-mdar.github.io/Random-Quote-Machine" target="blank" className="project-link">React Random Quote Machine</a></h2>
+                        </div>
+                        <div className="project-skills">
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>Javascript</p>
+                            <p>React</p>
+                            <p>Node.js</p>
+                            <p>ES6</p>
+                            <p>Express.js</p>
+                        </div>
+                        
+                    </div>
+                    <div className="project-code">
+                        <a href="https://masoud-mdar.github.io/Random-Quote-Machine" target="blank">Live Website</a>
+                        <a href="https://github.com/masoud-mdar/Random-Quote-Machine" target="blank">Code</a>
+                    </div>
+                </div>
+
+                <div className="project">
+                    <div className="project-details">
+                        <div className="project-title">
+                            <h2><a href="https://masoud-mdar.github.io/React-Markdown-Previewer" target="blank" className="project-link">React Markdown Previewer</a></h2>
+                        </div>
+                        <div className="project-skills">
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>Javascript</p>
+                            <p>React</p>
+                            <p>Node.js</p>
+                            <p>ES6</p>
+                            <p>Express.js</p>
+                        </div>
+                        
+                    </div>
+                    <div className="project-code">
+                        <a href="https://masoud-mdar.github.io/React-Markdown-Previewer" target="blank">Live Website</a>
+                        <a href="https://github.com/masoud-mdar/React-Markdown-Previewer" target="blank">Code</a>
+                    </div>
+                </div>
+
+                <div className="project">
+                    <div className="project-details">
+                        <div className="project-title">
+                            <h2><a href="https://masoud-mdar.github.io/Virtual-Drum-Machine" target="blank" className="project-link">Virtual Drum Machine</a></h2>
+                        </div>
+                        <div className="project-skills">
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>Javascript</p>
+                            <p>React</p>
+                            <p>Node.js</p>
+                            <p>ES6</p>
+                            <p>Express.js</p>
+                        </div>
+                        
+                    </div>
+                    <div className="project-code">
+                        <a href="https://masoud-mdar.github.io/Virtual-Drum-Machine" target="blank">Live Website</a>
+                        <a href="https://github.com/masoud-mdar/Virtual-Drum-Machine" target="blank">Code</a>
+                    </div>
+                </div>
+
+                <div className="project">
+                    <div className="project-details">
+                        <div className="project-title">
+                            <h2><a href="https://masoud-mdar.github.io/25-5-Clock" target="blank" className="project-link">25-5 Clock</a></h2>
+                        </div>
+                        <div className="project-skills">
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>Javascript</p>
+                            <p>React</p>
+                            <p>Node.js</p>
+                            <p>ES6</p>
+                            <p>Express.js</p>
+                        </div>
+                        
+                    </div>
+                    <div className="project-code">
+                        <a href="https://masoud-mdar.github.io/25-5-Clock" target="blank">Live Website</a>
+                        <a href="https://github.com/masoud-mdar/25-5-Clock" target="blank">Code</a>
+                    </div>
+                </div>
+
+                <div className="project">
+                    <div className="project-details">
+                        <div className="project-title">
+                            <h2><a href="https://masoud-mdar.github.io/React-Calculator" target="blank" className="project-link">React Calculator</a></h2>
+                        </div>
+                        <div className="project-skills">
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>Javascript</p>
+                            <p>React</p>
+                            <p>Node.js</p>
+                            <p>ES6</p>
+                            <p>Express.js</p>
+                        </div>
+                        
+                    </div>
+                    <div className="project-code">
+                        <a href="https://masoud-mdar.github.io/React-Calculator" target="blank">Live Website</a>
+                        <a href="https://github.com/masoud-mdar/React-Calculator" target="blank">Code</a>
+                    </div>
+                </div>
+
 
             </div>
         </div>

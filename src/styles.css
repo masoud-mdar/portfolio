@@ -612,6 +612,67 @@
 }
 
 
+.project:nth-child(7)::after {
+    content: "";
+    width: 40vw;
+    height: 40vh;
+    position: absolute;
+    top: 0;
+    background-image: url("./public/request-header-parser.jpg");
+    background-size: cover;
+    transition: 500ms;
+}
+
+.project:nth-child(7):hover::after {
+    opacity: 0.1;
+}
+
+.project:nth-child(8)::after {
+    content: "";
+    width: 40vw;
+    height: 40vh;
+    position: absolute;
+    top: 0;
+    background-image: url("./public/url-hasher.jpg");
+    background-size: cover;
+    transition: 500ms;
+}
+
+.project:nth-child(8):hover::after {
+    opacity: 0.1;
+}
+
+.project:nth-child(9)::after {
+    content: "";
+    width: 40vw;
+    height: 40vh;
+    position: absolute;
+    top: 0;
+    background-image: url("./public/file-metadata.jpg");
+    background-size: cover;
+    transition: 500ms;
+}
+
+.project:nth-child(9):hover::after {
+    opacity: 0.1;
+}
+
+.project:nth-child(10)::after {
+    content: "";
+    width: 40vw;
+    height: 40vh;
+    position: absolute;
+    top: 0;
+    background-image: url("./public/timestamp.jpg");
+    background-size: cover;
+    transition: 500ms;
+}
+
+.project:nth-child(10):hover::after {
+    opacity: 0.1;
+}
+
+
 
 .project .project-details {
     width: 30vw;

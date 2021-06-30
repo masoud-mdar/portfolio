@@ -1,8 +1,9 @@
 import React from "react"
 import ReactDOM from "react-dom"
 
-import App from "./App"
+//import HomePage from "./HomePage"
+import AppRouter from "./components/AppRouter"
 
 import "./styles.css"
 
-ReactDOM.render(<App />, document.getElementById("root"))
+ReactDOM.render(<AppRouter />, document.getElementById("root"))

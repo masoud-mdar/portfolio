@@ -1,6 +1,7 @@
 import React from "react"
 import {Switch, BrowserRouter, Route} from "react-router-dom"
 import HomePage from "./HomePage"
+import ScrollButton from "./ScrollButton"
 
 const AppRouter = () => {
 
@@ -9,6 +10,7 @@ const AppRouter = () => {
             <Switch>
                 <Route path="/" component={HomePage}></Route>
             </Switch>
+            <ScrollButton />
         </BrowserRouter>
     )
 }

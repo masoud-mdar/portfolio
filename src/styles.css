@@ -678,7 +678,7 @@
     height: 40vh;
     position: absolute;
     top: 0;
-    background-image: url("./public/url-hasher.jpg");
+    background-image: url("./public/random-quote.jpg");
     background-size: cover;
     transition: 500ms;
 }
@@ -693,7 +693,7 @@
     height: 40vh;
     position: absolute;
     top: 0;
-    background-image: url("./public/url-hasher.jpg");
+    background-image: url("./public/markdown-previewer.jpg");
     background-size: cover;
     transition: 500ms;
 }
@@ -708,7 +708,7 @@
     height: 40vh;
     position: absolute;
     top: 0;
-    background-image: url("./public/url-hasher.jpg");
+    background-image: url("./public/virtual-drum-machine.jpg");
     background-size: cover;
     transition: 500ms;
 }
@@ -723,7 +723,7 @@
     height: 40vh;
     position: absolute;
     top: 0;
-    background-image: url("./public/url-hasher.jpg");
+    background-image: url("./public/25-5-clock.jpg");
     background-size: cover;
     transition: 500ms;
 }
@@ -738,7 +738,7 @@
     height: 40vh;
     position: absolute;
     top: 0;
-    background-image: url("./public/url-hasher.jpg");
+    background-image: url("./public/calculator.jpg");
     background-size: cover;
     transition: 500ms;
 }
@@ -753,7 +753,7 @@
     height: 40vh;
     position: absolute;
     top: 0;
-    background-image: url("./public/url-hasher.jpg");
+    background-image: url("./public/random-color.jpg");
     background-size: cover;
     transition: 500ms;
 }
@@ -768,7 +768,7 @@
     height: 40vh;
     position: absolute;
     top: 0;
-    background-image: url("./public/url-hasher.jpg");
+    background-image: url("./public/key-code.jpg");
     background-size: cover;
     transition: 500ms;
 }

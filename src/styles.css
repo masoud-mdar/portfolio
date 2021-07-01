@@ -884,7 +884,7 @@
 
 .about {
     width: 100vw;
-    height: 100vh;
+    height: 255vh;
     background-color: #171717;
 }
 
@@ -902,7 +902,7 @@
 
 .about-text-wrapper {
     width: 100vw;
-    height: 100vh;
+    height: 245vh;
     position: absolute;
     top: 10vh;
     padding: 35px;

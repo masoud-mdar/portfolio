@@ -1011,13 +1011,20 @@
 }
 
 .more-projects .more-p-link {
-    color: #fafafa;
+    color: #0fc4e4;
     font-family: monospace;
     font-size: 24px;
     text-decoration: none;
 }
 
-
+.footer {
+    width: 100vw;
+    height: 25vh;
+    background-image: url("./public/us__en_us__ibm100__603calc__vacuum_tubes__620x350.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+}
 
 
 

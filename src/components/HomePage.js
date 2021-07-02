@@ -191,6 +191,9 @@ const HomePage = () => {
                 </div>
             </div>
             <ScrollButton />
+            <div className="footer">
+                footer
+            </div>
         </div>
     )
 }

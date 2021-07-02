@@ -16,7 +16,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 1;
+    z-index: 2;
 }
 
 .navbar a {
@@ -1023,18 +1023,18 @@
     height: 25vh;
     padding: 0 5vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
-    background-image: url("./public/us__en_us__ibm100__603calc__vacuum_tubes__620x350.jpg");
+    background-image: url("./public/footer.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    z-index: 2;
+    background-size: 100% 100%;
 }
 
-.footer .connect-text {
-    color: #171717;
-    font-size: 2.5rem;
+.footer .footer-signature {
+    color: #fafafa;
+    font-size: 2rem;
     font-weight: bolder;
+    font-family: monospace;
 }
 
 

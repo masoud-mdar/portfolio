@@ -48,7 +48,7 @@
     width: 300%;
     height: 300%;
     top: -110%;
-    left: -50%;
+    left: -70%;
     opacity: 0.45;
     position: fixed;
     animation: grain 8s steps(10) infinite,
@@ -87,7 +87,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-size: 24px;
+    font-size: 1.5rem;
     z-index: 1;
     animation: intro 13s steps(60);
 }
@@ -95,34 +95,34 @@
 @keyframes intro {
     0% {
         left: 25%;
-        font-size: 48px;
+        font-size: 3rem;
     }
     75% {
         left: 25%;
-        font-size: 48px;
+        font-size: 3rem;
     }
     80% {
         left: 30%;
         color: #0fc4e4;
-        font-size: 40px;
+        font-size: 2.5rem;
     }
     85% {
         left: 35%;
         color: #0fc4e4;
-        font-size: 32px;
+        font-size: 2rem;
     }
     90% {
         left: 40%;
-        font-size: 28px;
+        font-size: 1.75rem;
     }
     95% {
         left: 50%;
-        font-size: 26px;
+        font-size: 1.625rem;
     }
     100% {
         left: 60%;
         color: #fafafa;
-        font-size: 24px;
+        font-size: 1.5rem;
     }
 }
 
@@ -856,6 +856,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 
 }
 

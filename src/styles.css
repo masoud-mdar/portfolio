@@ -445,8 +445,9 @@
 }
 
 .main-part {
+    position: relative;
     width: 100vw;
-    height: 225vh;
+    height: 245vh;
     background-color: rgba(95, 158, 160, 0.521);
     z-index: 1;
 }
@@ -497,13 +498,14 @@
 
 #projects {
     width: 100vw;
-    height: 215vh;
+    height: 235vh;
     padding-top: 25px;
+    padding-bottom: 150px;
     background-color: #171717;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
-    align-content: space-around;
+    align-content:space-around;
     z-index: 2;
 }
 
@@ -995,6 +997,24 @@
     position: fixed;
     animation: grain 8s steps(10) infinite;
     z-index: 0;
+}
+
+.more-projects {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 7%;
+    z-index: 2;
+}
+
+.more-projects .more-p-link {
+    color: #fafafa;
+    font-family: monospace;
+    font-size: 24px;
+    text-decoration: none;
 }
 
 

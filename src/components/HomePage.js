@@ -1,5 +1,6 @@
 import React from "react"
 import {HashLink} from "react-router-hash-link"
+import {Link} from "react-router-dom"
 import ScrollButton from "./ScrollButton"
 
 const HomePage = () => {
@@ -34,9 +35,15 @@ const HomePage = () => {
             <div className="container">
                 
                 <div className="main-part">
+
                     <div className="main-part-title">
                         <h2>My Projects</h2>
                     </div>
+
+                    <div className="more-projects">
+                        <Link to="/projects" className="more-p-link">See More Projects</Link>
+                    </div> 
+
                     <div id="projects">
 
                         <div className="project">
@@ -176,9 +183,11 @@ const HomePage = () => {
                                 <a href="https://github.com/masoud-mdar/Metric-Imperial-Converter" target="blank">Code</a>
                             </div>
                         </div>
+    
 
-                        
                     </div>
+
+
                 </div>
             </div>
             <ScrollButton />

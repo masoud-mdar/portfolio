@@ -13,7 +13,7 @@ const Contact = () => {
                     </div>
                     <div className="contact-links">
                         <a href="https://github.com/masoud-mdar" target="_blank"><div className="logo"></div></a>
-                        <a href="https://github.com/masoud-mdar" target="_blank"><div className="logo"></div></a>
+
                         
                     </div>
                     <div className="contact-signature">

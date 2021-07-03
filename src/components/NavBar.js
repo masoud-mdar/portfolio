@@ -8,8 +8,8 @@ const NavBar = (props) => {
             <div className="nav-logo"></div>
             <div className="nav-links">
                 <NavLink to="/" activeClassName="link-active" exact={true}>Home</NavLink>
-                <NavLink to="/about" activeClassName="link-active">About</NavLink>
                 <NavLink to="/projects" activeClassName="link-active">Projects</NavLink>
+                <NavLink to="/about" activeClassName="link-active">About</NavLink>
                 <NavLink to="/contact" activeClassName="link-active">Contact</NavLink>
             </div>
         </div>

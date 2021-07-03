@@ -89,7 +89,7 @@
     flex-direction: column;
     justify-content: space-between;
     font-size: 1.5rem;
-    z-index: 1;
+    z-index: 3;
     animation: intro 10s steps(60);
 }
 
@@ -269,7 +269,7 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    z-index: 2;
+    z-index: 3;
 }
 
 .fake-borders {
@@ -292,7 +292,7 @@
     border-top: solid 2px #fafafa; 
     transform: scaleX(0);  
     animation: borderline 1s steps(40);
-    animation-delay: 13s;
+    animation-delay: 10s;
 }
 
 @keyframes borderline {
@@ -371,6 +371,7 @@
     transform: scaleX(0);  
     transition: transform 250ms ease-in-out;
     transform-origin: 100% 50%;
+    z-index: 1;
 }
 
 .projects-button:hover::after {
@@ -386,6 +387,7 @@
     transform: scaleX(0);  
     transition: transform 250ms ease-in-out;
     transform-origin: 0% 50%;
+    z-index: 1;
 }
 
 .projects-button:hover::before {

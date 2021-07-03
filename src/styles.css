@@ -90,7 +90,7 @@
     justify-content: space-between;
     font-size: 1.5rem;
     z-index: 1;
-    animation: intro 13s steps(60);
+    animation: intro 10s steps(60);
 }
 
 @keyframes intro {
@@ -161,25 +161,25 @@
 }
 
 .text .text-part p:nth-child(1) {
-    width: 4vw;
+    width: 3.5vw;
     animation: type 1s steps(40, end), blink .5s step-end infinite alternate, coloring 10s steps(40), size1 25s steps(40);
     animation-fill-mode: forwards;
 }
 
 .text .text-part p:nth-child(2) {
-    width: 22vw;
+    width: 21vw;
     opacity: 0;
     animation: type2 3s steps(40, end), coloring 10s steps(40), size2 25s steps(40);
-    animation-delay: 2s;
+    animation-delay: 1s;
     animation-fill-mode: forwards;
 }
 
   
 .text .text-part p:nth-child(3) {
-    width: 30vw;
+    width: 26vw;
     opacity: 0;
     animation: type3 4s steps(40, end), blink .5s step-end infinite alternate, coloring 10s steps(40), size3 25s steps(40);
-    animation-delay: 6s;
+    animation-delay: 4s;
     animation-fill-mode: forwards;
 }
 
@@ -190,7 +190,7 @@
     font-size: 26px;
     color: rgb(18, 241, 174);
     animation: webdev 5s linear forwards;
-    animation-delay: 10s;
+    animation-delay: 8s;
 }
   
 @keyframes type {
@@ -234,7 +234,7 @@
     }
     100% {
       opacity: 1;
-      width: 55vw;
+      width: 54vw;
     }
 }
 

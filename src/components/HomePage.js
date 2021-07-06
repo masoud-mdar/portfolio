@@ -1,5 +1,4 @@
 import React from "react"
-import {HashLink} from "react-router-hash-link"
 import {Link} from "react-router-dom"
 import ScrollButton from "./ScrollButton"
 import HomeProjects from "./HomeProjects"
@@ -12,7 +11,6 @@ const HomePage = () => {
 
             <Top />
             
-
             <div className="container">
                 
                 <div className="main-part">
@@ -27,14 +25,15 @@ const HomePage = () => {
 
                     <HomeProjects />
 
-
                 </div>
             </div>
+
             <div className="footer">
                 <div className="footer-signature">
                     <p>Masoud Mohammadi Darvishvand</p>
                 </div>
             </div>
+            
             <ScrollButton />
 
         </div>

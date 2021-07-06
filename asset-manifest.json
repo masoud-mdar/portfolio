@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.32788a2c.chunk.css",
-    "main.js": "/portfolio/static/js/main.0f7025a3.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.0f7025a3.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.1a405d64.chunk.css",
+    "main.js": "/portfolio/static/js/main.c217167d.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.c217167d.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.9eebd49b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.9eebd49b.js.map",
     "static/js/2.dbc163cd.chunk.js": "/portfolio/static/js/2.dbc163cd.chunk.js",
     "static/js/2.dbc163cd.chunk.js.map": "/portfolio/static/js/2.dbc163cd.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.32788a2c.chunk.css.map": "/portfolio/static/css/main.32788a2c.chunk.css.map",
+    "static/css/main.1a405d64.chunk.css.map": "/portfolio/static/css/main.1a405d64.chunk.css.map",
     "static/js/2.dbc163cd.chunk.js.LICENSE.txt": "/portfolio/static/js/2.dbc163cd.chunk.js.LICENSE.txt",
     "static/media/styles.css": "/portfolio/static/media/virtual-drum-machine.ce3ce515.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.9eebd49b.js",
     "static/js/2.dbc163cd.chunk.js",
-    "static/css/main.32788a2c.chunk.css",
-    "static/js/main.0f7025a3.chunk.js"
+    "static/css/main.1a405d64.chunk.css",
+    "static/js/main.c217167d.chunk.js"
   ]
 }

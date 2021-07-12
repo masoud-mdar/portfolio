@@ -22,7 +22,6 @@ const Top = () => {
                     
                 </div>
                     
-                
             </div>
             <div className="top-part"></div>
         </div>

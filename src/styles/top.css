@@ -115,12 +115,12 @@
     .text {
         position: absolute;
         top: 30%;
-        left: 15%;
+        left: 30%;
         width: 60vw;
         height: 50vh;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-around;
         font-size: 0.75rem;
         z-index: 3;
         

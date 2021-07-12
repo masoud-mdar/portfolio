@@ -173,101 +173,67 @@
     }
 }
 
-.text {
-    position: absolute;
-    top: 30%;
-    left: 8vw;
-    width: 70vw;
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    font-size: 0.75rem;
-    z-index: 3;
-    
-}
+@media only screen and (max-width: 648px) {
 
-.text .text-part p {
-    height: 5vh;
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
-    border-right: 2px solid #fafafab9 /*rgba(255, 166, 0, 0.575)*/;
-    font-family: "Bungee Hairline", cursive;
-    color: #fafafa;
-    font-weight: bold;
-    white-space: nowrap;
-    overflow: hidden;
-}
-
-.text .text-part p:nth-child(1) {
-    width: 3.5vw;
-    animation: type 1s steps(40, end), blink .5s step-end infinite alternate, coloring 10s steps(40), size1 25s steps(40);
-    animation-fill-mode: forwards;
-}
-
-.text .text-part p:nth-child(2) {
-    width: 21vw;
-    opacity: 0;
-    animation: type2 3s steps(40, end), coloring 10s steps(40), size2 25s steps(40);
-    animation-delay: 1s;
-    animation-fill-mode: forwards;
-}
-
-  
-.text .text-part p:nth-child(3) {
-    width: 26vw;
-    opacity: 0;
-    animation: type3 4s steps(40, end), blink .5s step-end infinite alternate, coloring 10s steps(40), size3 25s steps(40);
-    animation-delay: 4s;
-    animation-fill-mode: forwards;
-}
-
-.text .text-part p:nth-child(4) {
-    width: 55vw;
-    border: none;
-    opacity: 0;
-    font-size: 0.75rem;
-    color: rgb(18, 241, 174);
-    animation: webdev 5s linear forwards;
-    animation-delay: 8s;
-}
-
-
-
-@keyframes intro {
-    0% {
-        left: 25%;
-        font-size: 3rem;
-    }
-    75% {
-        left: 25%;
-        font-size: 3rem;
-    }
-    80% {
-        left: 30%;
-        color: #0fc4e4;
-        font-size: 2.5rem;
-    }
-    85% {
-        left: 35%;
-        color: #0fc4e4;
-        font-size: 2rem;
-    }
-    90% {
-        left: 40%;
-        font-size: 1.75rem;
-    }
-    95% {
-        left: 50%;
-        font-size: 1.625rem;
-    }
-    100% {
+    .text {
+        position: absolute;
+        top: 20%;
         left: 60%;
-        color: #fafafa;
+        width: 60vw;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         font-size: 1.5rem;
+        animation: intro 10s steps(60);
+        animation-fill-mode: forwards;
+        z-index: 3;
+        
+    }
+    .text .text-part p {
+        height: 5vh;
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        border-right: 2px solid #fafafab9 /*rgba(255, 166, 0, 0.575)*/;
+        font-family: "Bungee Hairline", cursive;
+        color: #fafafa;
+        font-weight: bold;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .text .text-part p:nth-child(1) {
+        width: 3.5vw;
+        animation: type 1s steps(40, end), blink .5s step-end infinite alternate, coloring 10s steps(40), size1 25s steps(40);
+        animation-fill-mode: forwards;
+    }
+    .text .text-part p:nth-child(2) {
+        width: 21vw;
+        opacity: 0;
+        animation: type2 3s steps(40, end), coloring 10s steps(40), size2 25s steps(40);
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+    }
+    .text .text-part p:nth-child(3) {
+        width: 26vw;
+        opacity: 0;
+        animation: type3 4s steps(40, end), blink .5s step-end infinite alternate, coloring 10s steps(40), size3 25s steps(40);
+        animation-delay: 4s;
+        animation-fill-mode: forwards;
+    }
+    .text .text-part p:nth-child(4) {
+        width: 55vw;
+        border: none;
+        opacity: 0;
+        font-size: 0.75rem;
+        color: rgb(18, 241, 174);
+        animation: webdev 5s linear forwards;
+        animation-delay: 8s;
     }
 }
+
+
+
 
 .text .text-part {
     overflow: hidden;

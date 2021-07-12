@@ -45,7 +45,7 @@
     90% { transform:translate(0%, 10%) }
 }
 
-@media only screen and (min-width: 649px) {
+@media only screen and (min-width: 6px) {
 
     .text {
         position: absolute;
@@ -110,7 +110,7 @@
     }
 }
 
-@media only screen and (max-width: 648px) {
+/*@media only screen and (max-width: 648px) {
 
     .text {
         position: absolute;
@@ -132,7 +132,7 @@
         display: flex;
         align-items: center;
         margin-bottom: 15px;
-        border-right: 2px solid #fafafab9 /*rgba(255, 166, 0, 0.575)*/;
+        border-right: 2px solid #fafafab9 ;
         font-family: "Bungee Hairline", cursive;
         color: #fafafa;
         font-weight: bold;
@@ -167,9 +167,48 @@
         animation: webdev 5s linear forwards;
         animation-delay: 8s;
     }
+}*/
+
+/*rgba(255, 166, 0, 0.575)*/
+
+
+.text .text-part {
+    overflow: hidden;
 }
 
-
+@keyframes intro {
+    0% {
+        left: 25%;
+        font-size: 3rem;
+    }
+    75% {
+        left: 25%;
+        font-size: 3rem;
+    }
+    80% {
+        left: 30%;
+        color: #0fc4e4;
+        font-size: 2.5rem;
+    }
+    85% {
+        left: 35%;
+        color: #0fc4e4;
+        font-size: 2rem;
+    }
+    90% {
+        left: 40%;
+        font-size: 1.75rem;
+    }
+    95% {
+        left: 50%;
+        font-size: 1.625rem;
+    }
+    100% {
+        left: 60%;
+        color: #fafafa;
+        font-size: 1.5rem;
+    }
+}
 
 
 .text .text-part {

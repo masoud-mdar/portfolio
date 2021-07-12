@@ -186,23 +186,7 @@
     z-index: 0;
 }
 
-.more-projects {
-    width: 100vw;
-    height: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    bottom: 7%;
-    z-index: 2;
-}
 
-.more-projects .more-p-link {
-    color: #0fc4e4;
-    font-family: monospace;
-    font-size: 24px;
-    text-decoration: none;
-}
 
 .footer {
     width: 100vw;

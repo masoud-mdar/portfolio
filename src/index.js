@@ -8,5 +8,6 @@ import "./styles.css"
 import "./styles/navbar.css"
 import "./styles/top.css"
 import "./styles/mainAndProjects.css"
+import "./styles/topButton.css"
 
 ReactDOM.render(<AppRouter />, document.getElementById("root"))

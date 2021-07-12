@@ -45,7 +45,7 @@
     90% { transform:translate(0%, 10%) }
 }
 
-@media only screen and (min-width: 6px) {
+@media only screen and (min-width: 649px) {
 
     .text {
         position: absolute;
@@ -110,25 +110,23 @@
     }
 }
 
-/*@media only screen and (max-width: 648px) {
+@media only screen and (max-width: 648px) {
 
     .text {
         position: absolute;
-        top: 20%;
-        left: 60%;
+        top: 30%;
+        left: 15%;
         width: 60vw;
         height: 50vh;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        font-size: 1.5rem;
-        animation: intro 10s steps(60);
-        animation-fill-mode: forwards;
+        font-size: 0.75rem;
         z-index: 3;
         
     }
     .text .text-part p {
-        height: 5vh;
+        height: 3vh;
         display: flex;
         align-items: center;
         margin-bottom: 15px;
@@ -165,12 +163,9 @@
         font-size: 0.75rem;
         color: rgb(18, 241, 174);
         animation: webdev 5s linear forwards;
-        animation-delay: 8s;
+        animation-delay: 6s;
     }
-}*/
-
-/*rgba(255, 166, 0, 0.575)*/
-
+}
 
 .text .text-part {
     overflow: hidden;
@@ -209,12 +204,6 @@
         font-size: 1.5rem;
     }
 }
-
-
-.text .text-part {
-    overflow: hidden;
-}
-
 
 
 @keyframes coloring {
@@ -301,195 +290,4 @@
         opacity: 1;
         display: block;
     }
-}
-
-.btn-wrapper {
-    width:30vw;
-    height: 25vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    z-index: 3;
-}
-
-.fake-borders {
-    width: 15vw;
-    height: 15vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    z-index: 2;
-}
-
-.fake-borders::after {
-    position: absolute;
-    width: 15vw;
-    height: 10vh;
-    content: '';
-    border-bottom: solid 2px #fafafa;
-    border-top: solid 2px #fafafa; 
-    transform: scaleX(0);  
-    animation: borderline 1s steps(40);
-    animation-delay: 10s;
-}
-
-@keyframes borderline {
-    0% {
-        transform: scaleX(0); 
-    }
-    12% {
-        transform: scaleX(0.25); 
-    }
-    25% {
-        transform: scaleX(0.5); 
-    }
-    37% {
-        transform: scaleX(0.75); 
-    }
-    50% {
-        transform: scaleX(1);
-    }
-    62% {
-        transform: scaleX(0.75);
-    }
-    75% {
-        transform: scaleX(0.5);
-    }
-    87% {
-        transform: scaleX(0.25);
-    }
-    99.9% {
-        transform: scaleX(0); 
-    }
-    100% {
-        display: none;
-    }
-    
-}
-
-.projects-button {
-    padding: 20px 15px;
-    color: #fafafa;
-    font-weight: bold;
-    font-family: "Annie Use Your Telescope", cursive;
-    font-size: 32px;
-    transition: 500ms;
-    cursor: pointer;
-    animation: appearance 12s forwards;
-    overflow: hidden;
-    text-decoration: none;
-    z-index: 2;
-}
-
-
-@keyframes appearance {
-    0% {
-        opacity: 0;
-    }
-    75% {
-        opacity: 0;
-    }
-    80% {
-        opacity: 0.3;
-    }
-    90% {
-        opacity: 0.6;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-
-.projects-button::after {
-    display:block;
-    content: '';
-    margin-top: 10px;
-    border-bottom: solid 2px rgb(18, 241, 174);  
-    transform: scaleX(0);  
-    transition: transform 250ms ease-in-out;
-    transform-origin: 100% 50%;
-    z-index: 1;
-}
-
-.projects-button:hover::after {
-    transform: scaleX(1); 
-    transform-origin: 0% 50%;
-}
-
-.projects-button::before {
-    display:block;
-    content: '';
-    margin-bottom: 10px;
-    border-bottom: solid 2px rgb(18, 241, 174);  
-    transform: scaleX(0);  
-    transition: transform 250ms ease-in-out;
-    transform-origin: 0% 50%;
-    z-index: 1;
-}
-
-.projects-button:hover::before {
-    transform: scaleX(1);
-    transform-origin: 100% 50%;
-}
-
-.projects-button:hover {
-    font-weight: bolder;
-}
-
-.flash {
-    position: relative;
-    width: 30vw;
-    height: 10vh;
-    margin-top: -20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 3;
-}
-
-.flash-button {
-    position: absolute;
-    width: 35px;
-    height: 35px;
-    border-bottom: 5px solid rgb(18, 241, 174);
-    border-right: 5px solid rgb(18, 241, 174);
-    opacity: 0;
-    transform: rotate(45deg);
-    animation: flash 1.5s infinite linear;
-    animation-delay: 10s;
-    z-index: 3;
-    
-}
-
-@keyframes flash {
-    0% {
-        top: 0;
-        opacity: 1;
-    }
-
-    25% {
-        top: 10%;
-        opacity: 0.7;
-    }
-
-    50% {
-        top: 25%;
-        opacity: 0.5;
-    }
-
-    75% {
-        top: 10%;
-        opacity: 0.7;
-    }
-
-    100% {
-        top: 0;
-        opacity: 1;
-    }
-
 }

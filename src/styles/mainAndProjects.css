@@ -457,14 +457,23 @@
 }
 
 @media only screen and (max-width: 648px) {
+    .main-part {
+        position: relative;
+        width: 100vw;
+        height: 245vh;
+        background-color: rgba(95, 158, 160, 0.521);
+        z-index: 1;
+        overflow: hidden;
+    }
+
     #projects {
         width: 100vw;
-        height: 275vh;
+        height: 235vh;
         padding-top: 25px;
         padding-bottom: 150px;
         background-color: #171717;
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         justify-items: center;
         align-content:space-around;
         z-index: 2;
@@ -489,7 +498,7 @@
         position: absolute;
         top: 0;
         background-image: url("../public/issue-tracker.jpg");
-        background-size: cover;
+        background-size: 100% 100%;
         transition: 500ms;
     }
     
@@ -504,7 +513,7 @@
         position: absolute;
         top: 0;
         background-image: url("../public/personal-library.jpg");
-        background-size: cover;
+        background-size: 100% 100%;
         transition: 500ms;
     }
     
@@ -519,7 +528,7 @@
         position: absolute;
         top: 0;
         background-image: url("../public/sudoku-solver.jpg");
-        background-size: cover;
+        background-size: 100% 100%;
         transition: 500ms;
     }
     
@@ -535,7 +544,7 @@
         position: absolute;
         top: 0;
         background-image: url("../public/exercise-tracker.jpg");
-        background-size: cover;
+        background-size: 100% 100%;
         transition: 500ms;
     }
     
@@ -550,7 +559,7 @@
         position: absolute;
         top: 0;
         background-image: url("../public/meme-generator.jpg");
-        background-size: cover;
+        background-size: 100% 100%;
         transition: 500ms;
     }
     
@@ -565,7 +574,7 @@
         position: absolute;
         top: 0;
         background-image: url("../public/converter.jpg");
-        background-size: cover;
+        background-size: 100% 100%;
         transition: 500ms;
     }
     
@@ -581,7 +590,7 @@
         position: absolute;
         top: 0;
         background-image: url("../public/request-header-parser.jpg");
-        background-size: cover;
+        background-size: 100% 100%;
         transition: 500ms;
     }
     
@@ -596,7 +605,7 @@
         position: absolute;
         top: 0;
         background-image: url("../public/url-hasher.jpg");
-        background-size: cover;
+        background-size: 100% 100%;
         transition: 500ms;
     }
     
@@ -611,7 +620,7 @@
         position: absolute;
         top: 0;
         background-image: url("../public/file-metadata.jpg");
-        background-size: cover;
+        background-size: 100% 100%;
         transition: 500ms;
     }
     
@@ -626,7 +635,7 @@
         position: absolute;
         top: 0;
         background-image: url("../public/timestamp.jpg");
-        background-size: cover;
+        background-size: 100% 100%;
         transition: 500ms;
     }
     
@@ -641,7 +650,7 @@
         position: absolute;
         top: 0;
         background-image: url("../public/random-quote.jpg");
-        background-size: cover;
+        background-size: 100% 100%;
         transition: 500ms;
     }
     
@@ -656,7 +665,7 @@
         position: absolute;
         top: 0;
         background-image: url("../public/markdown-previewer.jpg");
-        background-size: cover;
+        background-size: 100% 100%;
         transition: 500ms;
     }
     
@@ -671,7 +680,7 @@
         position: absolute;
         top: 0;
         background-image: url("../public/virtual-drum-machine.jpg");
-        background-size: cover;
+        background-size: 100% 100%;
         transition: 500ms;
     }
     
@@ -686,7 +695,7 @@
         position: absolute;
         top: 0;
         background-image: url("../public/25-5-clock.jpg");
-        background-size: cover;
+        background-size: 100% 100%;
         transition: 500ms;
     }
     
@@ -701,7 +710,7 @@
         position: absolute;
         top: 0;
         background-image: url("../public/calculator.jpg");
-        background-size: cover;
+        background-size: 100% 100%;
         transition: 500ms;
     }
     
@@ -716,7 +725,7 @@
         position: absolute;
         top: 0;
         background-image: url("../public/random-color.jpg");
-        background-size: cover;
+        background-size: 100% 100%;
         transition: 500ms;
     }
     
@@ -731,7 +740,7 @@
         position: absolute;
         top: 0;
         background-image: url("../public/key-code.jpg");
-        background-size: cover;
+        background-size: 100% 100%;
         transition: 500ms;
     }
     
@@ -848,7 +857,7 @@
         justify-content: center;
         align-items: center;
         position: absolute;
-        bottom: 10%;
+        bottom: 0%;
         z-index: 2;
     }
     

@@ -8,18 +8,10 @@
     overflow-x: hidden;
 }
 
-
-
 .container {
     position: relative;
     width: 100vw;
 }
-
-
-
-
-
-
 
 #projects-page {
     width: 100vw;
@@ -46,8 +38,6 @@
     z-index: 0;
 }
 
-
-
 .footer {
     width: 100vw;
     height: 25vh;
@@ -67,9 +57,23 @@
     font-family: "Bungee Hairline", cursive;
 }
 
+@media only screen and (max-width: 648px) {
+    .footer {
+        width: 100vw;
+        height: 25vh;
+        padding: 0 5vw;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
 
-
-
+    }
+    .footer .footer-signature {
+        color: #fafafa;
+        font-size: 1rem;
+        font-weight: bolder;
+        font-family: "Bungee Hairline", cursive;
+    }
+}
 
 
 ::-webkit-scrollbar {

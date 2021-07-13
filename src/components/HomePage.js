@@ -20,7 +20,7 @@ const HomePage = () => {
                     </div>
 
                     <div className="more-projects">
-                        <Link to="/projects" className="more-p-link">See More Projects</Link>
+                        <Link to="/portfolio/projects" className="more-p-link">See More Projects</Link>
                     </div> 
 
                     <HomeProjects />

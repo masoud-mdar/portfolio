@@ -9,11 +9,11 @@ const NavBar = (props) => {
             <div className="nav-links">
                 <div className="left-links">
                     <NavLink to="/portfolio" activeClassName="link-active" className="nav-link" exact={true}>Home</NavLink>
-                    <NavLink to="/projects" activeClassName="link-active" className="nav-link">Projects</NavLink>
+                    <NavLink to="/portfolio/projects" activeClassName="link-active" className="nav-link">Projects</NavLink>
                 </div>
                 <div className="right-links">
-                    <NavLink to="/about" activeClassName="link-active" className="nav-link">About</NavLink>
-                    <NavLink to="/contact" activeClassName="link-active" className="nav-link">Contact</NavLink>
+                    <NavLink to="/portfolio/about" activeClassName="link-active" className="nav-link">About</NavLink>
+                    <NavLink to="/portfolio/contact" activeClassName="link-active" className="nav-link">Contact</NavLink>
                 </div>
             </div>
         </div>

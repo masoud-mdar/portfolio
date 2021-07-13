@@ -16,9 +16,9 @@ const AppRouter = () => {
             <Switch>
                 <Route path="/" component={HomePage} exact={true}></Route>
                 <Route path="/portfolio" component={HomePage} exact={true}></Route>
-                <Route path="/about" component={About}></Route>
-                <Route path="/projects" component={Projects}></Route>
-                <Route path="/contact" component={Contact}></Route>
+                <Route path="/portfolio/about" component={About}></Route>
+                <Route path="/portfolio/projects" component={Projects}></Route>
+                <Route path="/portfolio/contact" component={Contact}></Route>
                 <Route component={NotFound}></Route>
 
             </Switch>

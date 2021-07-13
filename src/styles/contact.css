@@ -51,10 +51,16 @@
     }
 }
 
+.contact-text-wrapper .contact-links {
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .logo {
     width: 10vw;
     height: 10vw;
-    background-image: url("../public/gh-logo.png");
     background-size: 100%;
     background-repeat: no-repeat;
     z-index: 3;
@@ -62,6 +68,14 @@
     border: 1px solid #fafafa;
     border-radius: 50%;
 
+}
+
+.git-logo {
+    background-image: url("../public/gh-logo.png");
+}
+
+.linkedin-logo {
+    background-image: url("../public/linkedin-logo.png");
 }
 
 .contact-text-wrapper .contact-links a {

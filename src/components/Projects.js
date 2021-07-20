@@ -233,7 +233,7 @@ const Projects = () => {
                 <div className="project">
                     <div className="project-details">
                         <div className="project-title">
-                            <h2><a href="https://app.netlify.com/sites/timestamp-ms" target="blank" className="project-link">Timestamp Micro Service</a></h2>
+                            <h2><a href="https://timestamp-ms.netlify.app" target="blank" className="project-link">Timestamp Micro Service</a></h2>
                         </div>
                         <div className="project-skills">
                             <p>HTML</p>

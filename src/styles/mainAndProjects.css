@@ -161,7 +161,7 @@
         height: 40vh;
         position: absolute;
         top: 0;
-        background-image: url("../public/converter.jpg");
+        background-image: url("../public/wikipedia.jpg");
         background-size: cover;
         transition: 500ms;
     }
@@ -169,15 +169,14 @@
     .project:nth-child(6):hover::after {
         opacity: 0.1;
     }
-    
-    
+
     .project:nth-child(7)::after {
         content: "";
         width: 40vw;
         height: 40vh;
         position: absolute;
         top: 0;
-        background-image: url("../public/request-header-parser.jpg");
+        background-image: url("../public/converter.jpg");
         background-size: cover;
         transition: 500ms;
     }
@@ -186,13 +185,14 @@
         opacity: 0.1;
     }
     
+    
     .project:nth-child(8)::after {
         content: "";
         width: 40vw;
         height: 40vh;
         position: absolute;
         top: 0;
-        background-image: url("../public/url-hasher.jpg");
+        background-image: url("../public/request-header-parser.jpg");
         background-size: cover;
         transition: 500ms;
     }
@@ -207,7 +207,7 @@
         height: 40vh;
         position: absolute;
         top: 0;
-        background-image: url("../public/file-metadata.jpg");
+        background-image: url("../public/url-hasher.jpg");
         background-size: cover;
         transition: 500ms;
     }
@@ -222,7 +222,7 @@
         height: 40vh;
         position: absolute;
         top: 0;
-        background-image: url("../public/timestamp.jpg");
+        background-image: url("../public/file-metadata.jpg");
         background-size: cover;
         transition: 500ms;
     }
@@ -237,7 +237,7 @@
         height: 40vh;
         position: absolute;
         top: 0;
-        background-image: url("../public/random-quote.jpg");
+        background-image: url("../public/timestamp.jpg");
         background-size: cover;
         transition: 500ms;
     }
@@ -252,7 +252,7 @@
         height: 40vh;
         position: absolute;
         top: 0;
-        background-image: url("../public/markdown-previewer.jpg");
+        background-image: url("../public/random-quote.jpg");
         background-size: cover;
         transition: 500ms;
     }
@@ -267,7 +267,7 @@
         height: 40vh;
         position: absolute;
         top: 0;
-        background-image: url("../public/virtual-drum-machine.jpg");
+        background-image: url("../public/markdown-previewer.jpg");
         background-size: cover;
         transition: 500ms;
     }
@@ -282,7 +282,7 @@
         height: 40vh;
         position: absolute;
         top: 0;
-        background-image: url("../public/25-5-clock.jpg");
+        background-image: url("../public/virtual-drum-machine.jpg");
         background-size: cover;
         transition: 500ms;
     }
@@ -297,7 +297,7 @@
         height: 40vh;
         position: absolute;
         top: 0;
-        background-image: url("../public/calculator.jpg");
+        background-image: url("../public/25-5-clock.jpg");
         background-size: cover;
         transition: 500ms;
     }
@@ -312,7 +312,7 @@
         height: 40vh;
         position: absolute;
         top: 0;
-        background-image: url("../public/random-color.jpg");
+        background-image: url("../public/calculator.jpg");
         background-size: cover;
         transition: 500ms;
     }
@@ -327,12 +327,27 @@
         height: 40vh;
         position: absolute;
         top: 0;
-        background-image: url("../public/key-code.jpg");
+        background-image: url("../public/random-color.jpg");
         background-size: cover;
         transition: 500ms;
     }
     
     .project:nth-child(17):hover::after {
+        opacity: 0.1;
+    }
+    
+    .project:nth-child(18)::after {
+        content: "";
+        width: 40vw;
+        height: 40vh;
+        position: absolute;
+        top: 0;
+        background-image: url("../public/key-code.jpg");
+        background-size: cover;
+        transition: 500ms;
+    }
+    
+    .project:nth-child(18):hover::after {
         opacity: 0.1;
     }
     
@@ -573,7 +588,7 @@
         height: 40vh;
         position: absolute;
         top: 0;
-        background-image: url("../public/converter.jpg");
+        background-image: url("../public/wikipedia.jpg");
         background-size: 100% 100%;
         transition: 500ms;
     }
@@ -581,16 +596,15 @@
     .project:nth-child(6):hover::after {
         opacity: 0.1;
     }
-    
-    
+
     .project:nth-child(7)::after {
         content: "";
         width: 40vw;
         height: 40vh;
         position: absolute;
         top: 0;
-        background-image: url("../public/request-header-parser.jpg");
-        background-size: 100% 100%;
+        background-image: url("../public/converter.jpg");
+        background-size: cover;
         transition: 500ms;
     }
     
@@ -598,13 +612,14 @@
         opacity: 0.1;
     }
     
+    
     .project:nth-child(8)::after {
         content: "";
         width: 40vw;
         height: 40vh;
         position: absolute;
         top: 0;
-        background-image: url("../public/url-hasher.jpg");
+        background-image: url("../public/request-header-parser.jpg");
         background-size: 100% 100%;
         transition: 500ms;
     }
@@ -619,7 +634,7 @@
         height: 40vh;
         position: absolute;
         top: 0;
-        background-image: url("../public/file-metadata.jpg");
+        background-image: url("../public/url-hasher.jpg");
         background-size: 100% 100%;
         transition: 500ms;
     }
@@ -634,7 +649,7 @@
         height: 40vh;
         position: absolute;
         top: 0;
-        background-image: url("../public/timestamp.jpg");
+        background-image: url("../public/file-metadata.jpg");
         background-size: 100% 100%;
         transition: 500ms;
     }
@@ -649,7 +664,7 @@
         height: 40vh;
         position: absolute;
         top: 0;
-        background-image: url("../public/random-quote.jpg");
+        background-image: url("../public/timestamp.jpg");
         background-size: 100% 100%;
         transition: 500ms;
     }
@@ -664,7 +679,7 @@
         height: 40vh;
         position: absolute;
         top: 0;
-        background-image: url("../public/markdown-previewer.jpg");
+        background-image: url("../public/random-quote.jpg");
         background-size: 100% 100%;
         transition: 500ms;
     }
@@ -679,7 +694,7 @@
         height: 40vh;
         position: absolute;
         top: 0;
-        background-image: url("../public/virtual-drum-machine.jpg");
+        background-image: url("../public/markdown-previewer.jpg");
         background-size: 100% 100%;
         transition: 500ms;
     }
@@ -694,7 +709,7 @@
         height: 40vh;
         position: absolute;
         top: 0;
-        background-image: url("../public/25-5-clock.jpg");
+        background-image: url("../public/virtual-drum-machine.jpg");
         background-size: 100% 100%;
         transition: 500ms;
     }
@@ -709,7 +724,7 @@
         height: 40vh;
         position: absolute;
         top: 0;
-        background-image: url("../public/calculator.jpg");
+        background-image: url("../public/25-5-clock.jpg");
         background-size: 100% 100%;
         transition: 500ms;
     }
@@ -724,7 +739,7 @@
         height: 40vh;
         position: absolute;
         top: 0;
-        background-image: url("../public/random-color.jpg");
+        background-image: url("../public/calculator.jpg");
         background-size: 100% 100%;
         transition: 500ms;
     }
@@ -739,12 +754,27 @@
         height: 40vh;
         position: absolute;
         top: 0;
-        background-image: url("../public/key-code.jpg");
+        background-image: url("../public/random-color.jpg");
         background-size: 100% 100%;
         transition: 500ms;
     }
     
     .project:nth-child(17):hover::after {
+        opacity: 0.1;
+    }
+    
+    .project:nth-child(18)::after {
+        content: "";
+        width: 40vw;
+        height: 40vh;
+        position: absolute;
+        top: 0;
+        background-image: url("../public/key-code.jpg");
+        background-size: 100% 100%;
+        transition: 500ms;
+    }
+    
+    .project:nth-child(18):hover::after {
         opacity: 0.1;
     }
     

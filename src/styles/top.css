@@ -94,7 +94,9 @@
     .text .text-part p:nth-child(3) {
         width: 26vw;
         opacity: 0;
-        animation: type3 4s steps(40, end), blink .5s step-end infinite alternate, coloring 10s steps(40), size3 25s steps(40);
+        animation: type3 4s steps(40, end), blink .5s step-end infinite alternate, 
+        coloring 10s steps(40), size3 25s steps(40),
+        cursor-bye 7s 1s forwards;
         animation-delay: 4s;
         animation-fill-mode: forwards;
     }
@@ -152,7 +154,9 @@
     .text .text-part p:nth-child(3) {
         width: 26vw;
         opacity: 0;
-        animation: type3 4s steps(40, end), blink .5s step-end infinite alternate, coloring 10s steps(40), size3 25s steps(40);
+        animation: type3 4s steps(40, end), blink .5s step-end infinite alternate, 
+        coloring 10s steps(40), size3 25s steps(40),
+        cursor-bye 7s 1s forwards;
         animation-delay: 4s;
         animation-fill-mode: forwards;
     }
@@ -289,5 +293,14 @@
     100% {
         opacity: 1;
         display: block;
+    }
+}
+
+@keyframes cursor-bye {
+    0% {
+        border-color: #fafafa;
+    }
+    100% {
+        border-color: transparent;
     }
 }

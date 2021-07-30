@@ -149,6 +149,29 @@ const Projects = () => {
                 <div className="project">
                     <div className="project-details">
                         <div className="project-title">
+                            <h2><a href="https://weather-app-masoud.netlify.app" target="blank" className="project-link">Weather App</a></h2>
+                        </div>
+                        <div className="project-skills">
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>Javascript</p>
+                            <p>React</p>
+                            <p>Node.js</p>
+                            <p>ES6</p>
+                            <p>Express.js</p>
+                            <p>API</p>
+                        </div>
+                        
+                    </div>
+                    <div className="project-code">
+                        <a href="https://weather-app-masoud.netlify.app" target="blank">Live Website</a>
+                        <a href="https://github.com/masoud-mdar/Weather-App" target="blank">Code</a>
+                    </div>
+                </div>
+
+                <div className="project">
+                    <div className="project-details">
+                        <div className="project-title">
                             <h2><a href="https://metric-imperial-converter.netlify.app" target="blank" className="project-link">Unit Converter</a></h2>
                         </div>
                         <div className="project-skills">

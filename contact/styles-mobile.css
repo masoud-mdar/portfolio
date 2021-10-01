@@ -16,6 +16,13 @@
     .ufo {
         left: auto;
     }
+    #main-ufo {
+        display: flex;
+        top: 50%;
+    }
+    .turning-ufo{
+        display: none;
+    }
 
     /* Planet */
 
